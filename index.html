@@ -15,14 +15,11 @@
         <img src="NetFlixImages/Netflix_Logo_PMS.png" alt="">
       </div>
       <div class="nav-content">
-        <div class="dropdown-container">
-          <a href="#" class="eng-btn dropdown-links"><img class="eng-lang" src="NetFlixImages/eng-lang.svg" alt="">
-            English<img class="eng-arrow" src="NetFlixImages/arrow-down.svg" alt=""></a>
-          <div class="dropdown-content">
-            <a href="#" class="sub-links">English</a>
-            <a href="#" class="sub-links">हिंदी</a>
-          </div>
-        </div>
+        <label for="lang"></label>
+        <select id="lang" name="lang">
+          <option value="eng">English</option>
+          <option value="hind">हिंदी</option>
+        </select>
         <a href="#" class="sign-btn">Sign In</a>
       </div>
     </div>
@@ -41,7 +38,76 @@
     </div>
   </header>
   <!-- Feature Section -->
-   
+  <main>
+    <div class="feature-line"></div>
+    <section for="trending">
+      <div class="trending-container">
+        <div class="trending-head-text">
+          <h2>Trending Now</h2>
+        </div>
+        <div class="trending-movie">
+          <label for="movie"></label>
+          <select id="movie" name="movie">
+            <option value="india">India</option>
+            <option value="global">Global</option>
+          </select>
+
+          <div class="trending-show">
+            <label for="show"></label>
+            <select name="show" id="show">
+              <option value="movies">Movie</option>
+              <option value="tv-shows">TV Shows</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Feature  Movie -->
+    <section for="feature-movie">
+      <div class="feature-container">
+        <!-- Box 1 -->
+        <div class="feature-content box-1">
+          <img src="FeatureMovie/fea1.jpeg" alt="">
+          <div class="feature-text">
+            <span class="text-one">Recently added</span>
+            <span class="text-two">Top <br> 10</span>
+          </div>
+        </div>
+        <!-- Box 2  -->
+        <div class="feature-content box-2">
+          <img src="FeatureMovie/fea2.jpeg" alt="">
+          <div class="feature-text">
+            <span class="text-one">Recently added</span>
+            <span class="text-two">Top <br> 10</span>
+          </div>
+        </div>
+        <!-- Box 3 -->
+        <div class="feature-content box-3">
+          <img src="FeatureMovie/fea3.jpeg" alt="">
+          <div class="feature-text">
+            <span class="text-one">Recently added</span>
+            <span class="text-two">Top <br> 10</span>
+          </div>
+        </div>
+        <!-- Box 4 -->
+        <div class="feature-content box-4">
+          <img src="FeatureMovie/fea4.jpeg" alt="">
+          <div class="feature-text">
+            <span class="text-one">Recently added</span>
+            <span class="text-two">Top <br> 10</span>
+          </div>
+        </div>
+        <!-- Box 5 -->
+        <div class="feature-content box-5">
+          <img src="FeatureMovie/fea5.jpeg" alt="">
+          <div class="feature-text">
+            <span class="text-one">Recently added</span>
+            <span class="text-two">Top <br> 10</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
